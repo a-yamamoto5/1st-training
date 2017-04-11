@@ -1,0 +1,43 @@
+//Lesson5.6 Sample7
+
+import java.io.*;
+
+class Sample7{
+  public static void main(String[] args) throws IOException{
+    System.out.println("あなたは男性ですか？");
+    System.out.println("YまたはNを入力してください");
+
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+    String str = br.readLine();
+    char res = str.charAt(0);
+
+    switch(res){
+      case 'Y':
+      case 'y':
+        System.out.println("あなたは男性ですね。");
+        break;
+      case 'N':
+      case 'n':
+        System.out.println("あなたは女性ですね。");
+        break;
+      default:
+        System.out.println("YまたはNを入力してください。");
+        break;
+    }
+//上と下は同じ処理
+
+/*
+    if(res == 'Y' || res == 'y'){
+      System.out.println("あなたは男性ですね。");
+    }
+    else if(res == 'N' || res == 'n'){
+      System.out.println("あなたは女性ですね。");
+    }
+    else{
+      System.out.println("YまたはNを入力してください。");
+    }
+*/
+
+  }
+}
