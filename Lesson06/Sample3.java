@@ -11,8 +11,21 @@ class Sample3{
     String str = br.readLine();
     int res = Integer.parseInt(str);
 
-    for(int i=1;i<=res;i++){
+  /*  for(i =1; i <= res; i++){
+      if(i%10 == 0){
+
+      }
+      System.out.print
+    }
+*/
+
+
+    for(int i=1;i<=res; i++){
+      //System.out.print("* [" + i + "]"); //横に数字出力
+
       System.out.print("*");
+
+
     }
   }
 }

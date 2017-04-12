@@ -1,16 +1,14 @@
-//Lesson6.2 Sample5
+//Lesson6 Sample6
 
-class Sample5{
-  public static void main(String[] args) {
-
+class Samople6{
+  public static void main(String[] args){
     int i = 1;
 
-    while(i <= 5){
+    do{
       System.out.println(i + "番目の繰り返しです。");
       i++;
-    }
+    } while(i <= 5);
 
     System.out.println("繰り返しが終わりました。");
-
   }
 }
