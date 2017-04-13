@@ -1,6 +1,6 @@
 //Lesson6 Sample6
 
-class Samople6{
+class Sample6{
   public static void main(String[] args){
     int i = 1;
 
