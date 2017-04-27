@@ -55,10 +55,10 @@ class Sample2{
 
     for(int i = 0; i < vc.length; i++){
       if(vc[i] instanceof Car2){
-      System.out.println((i+1) + "番目のオブジェクトはCarクラスです。");
+        System.out.println((i+1) + "番目のオブジェクトはCar2クラスです。");
       }
       else{
-      System.out.println((i+1) + "番目のオブジェクトはCarクラスではありません。");
+        System.out.println((i+1) + "番目のオブジェクトはCar2クラスではありません。");
       }
     }
 
